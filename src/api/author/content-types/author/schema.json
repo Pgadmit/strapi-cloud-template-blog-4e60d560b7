@@ -24,6 +24,13 @@
     "email": {
       "type": "string"
     },
+    "bio": {
+      "type": "text",
+      "maxLength": 500
+    },
+    "social_links": {
+      "type": "json"
+    },
     "articles": {
       "type": "relation",
       "relation": "oneToMany",
